@@ -10,46 +10,54 @@
       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
       crossorigin="anonymous"
     />
-    <title>Ecommerce</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <title>DTODITX</title>
   </head>
   <body>
     <div class="grid-container">
       <nav class="barrainicio">
-        <h3>Mi Ecommerce</h3>
+        <p>D'TODITX</p>
+        <i class="fas fa-bars" title="Opciones"></i>
       </nav>
+      <div class="ordenar">
+        <p>Ordenar por:</p>
+        <select>
+          <option value="precio">Precio más bajo</option>
+          <option value="fecha">Precio más alto</option>
+          <option value="fecha">Nombre</option>
+        </select>
+      </div>
 
       <div class="filtro-categoria">
-        <h2 aria-level="3" class="categoria">Categorías</h2>
         <ul>
           <li class="categoria-container">
             <a href="" class="link">
-              <span class="filtro-nombre">Electrodomésticos</span
-              ><span class="filto-resultado">(27)</span>
+              <span class="filtro-nombre">Inicio</span>
             </a>
           </li>
           <li class="categoria-container">
             <a href="" class="link">
-              <span class="filtro-nombre">Instrumentos</span
-              ><span class="filto-resultado">(7)</span>
+              <span class="filtro-nombre">catálogo</span>
             </a>
           </li>
           <li class="categoria-container">
             <a href="" class="link">
-              <span class="filtro-nombre">Mascotas</span
-              ><span class="filto-resultado">(56)</span>
+              <span class="filtro-nombre">Oferta</span>
             </a>
           </li>
           <li class="categoria-container">
             <a href="" class="link">
-              <span class="filtro-nombre">Tecnología</span
-              ><span class="filto-resultado">(17)</span>
+              <span class="filtro-nombre">Contacto</span>
             </a>
           </li>
         </ul>
       </div>
-      <div class="productos">
-        <div class="col-12 col-md-4 mt-3">
-          <div class="card" style="width: 18rem">
+      <div class="productos row">
+        <div class="col-12 col-md-4 my-2">
+          <div class="card" style="width: 16rem">
             <img
               src="./assets/img/Arenagato1.jpg"
               class="card-img-top"
@@ -62,13 +70,13 @@
               <p class="px-3 mt-4">$26.990</p>
             </div>
             <div class="boton">
-              <button class="btn btn-primary" type="button">Comprar</button>
+              <button class="btn btn-primary" type="button">Ver más</button>
             </div>
           </div>
         </div>
 
-        <div class="col-12 col-md-4 mt-3">
-          <div class="card" style="width: 18rem">
+        <div class="col-12 col-md-4 my-2">
+          <div class="card" style="width: 16rem">
             <img
               src="./assets/img/Notebook1.jpg"
               class="card-img-top"
@@ -81,13 +89,13 @@
               <p class="px-3 mt-4">$684.990</p>
             </div>
             <div class="boton">
-              <button class="btn btn-primary" type="button">Comprar</button>
+              <button class="btn btn-primary" type="button">Ver más</button>
             </div>
           </div>
         </div>
 
-        <div class="col-12 col-md-4 mt-3">
-          <div class="card" style="width: 18rem">
+        <div class="col-12 col-md-4 my-2">
+          <div class="card" style="width: 16rem">
             <img
               src="./assets/img/Ventilador2.jpg"
               class="card-img-top"
@@ -100,13 +108,13 @@
               <p class="px-3 mt-4">$6.990</p>
             </div>
             <div class="boton">
-              <button class="btn btn-primary" type="button">Comprar</button>
+              <button class="btn btn-primary" type="button">Ver más</button>
             </div>
           </div>
         </div>
 
-        <div class="col-12 col-md-4 mt-3">
-          <div class="card" style="width: 18rem">
+        <div class="col-12 col-md-4 my-2">
+          <div class="card" style="width: 16rem">
             <img
               src="./assets/img/Ventilador1.jpg"
               class="card-img-top"
@@ -119,13 +127,13 @@
               <p class="px-3 mt-4">$56.990</p>
             </div>
             <div class="boton">
-              <button class="btn btn-primary" type="button">Comprar</button>
+              <button class="btn btn-primary" type="button">Ver más</button>
             </div>
           </div>
         </div>
 
-        <div class="col-12 col-md-4 mt-3">
-          <div class="card" style="width: 18rem">
+        <div class="col-12 col-md-4 my-2">
+          <div class="card" style="width: 16rem">
             <img
               src="./assets/img/Violin 2.jpg"
               class="card-img-top"
@@ -138,17 +146,66 @@
               <p class="px-3 mt-4">$66.990</p>
             </div>
             <div class="boton">
-              <button class="btn btn-primary" type="button">Comprar</button>
+              <button class="btn btn-primary" type="button">Ver más</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-4 my-2">
+          <div class="card" style="width: 16rem">
+            <img
+              src="./assets/img/Violin 5.jpg"
+              class="card-img-top"
+              alt="violin"
+            />
+            <div class="titulo-precio">
+              <h5 class="card-title px-2 my-1">
+                Violin 4/4 Con Estuche Y Arco Traviata
+              </h5>
+              <p class="px-3 mt-4">$126.990</p>
+            </div>
+            <div class="boton">
+              <button class="btn btn-primary" type="button">Ver más</button>
             </div>
           </div>
         </div>
       </div>
-      <footer>@miecommerce</footer>
+      <nav aria-label="Page navigation example" class="paginas">
+        <ul class="pagination">
+          <li class="page-item">
+            <a class="page-link" href="#" aria-label="Previous">
+              <span aria-hidden="true">&laquo;</span>
+            </a>
+          </li>
+          <li class="page-item"><a class="page-link" href="#">1</a></li>
+          <li class="page-item"><a class="page-link" href="#">2</a></li>
+          <li class="page-item"><a class="page-link" href="#">3</a></li>
+          <li class="page-item">
+            <a class="page-link" href="#" aria-label="Next">
+              <span aria-hidden="true">&raquo;</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <footer>
+        <div class="pie">
+          <div>
+            <i class="fa-brands fa-facebook"></i>
+
+            <i class="fa-brands fa-instagram"></i>
+          </div>
+
+          <h3>@D´TODITX</h3>
+        </div>
+      </footer>
     </div>
   </body>
   <script
-    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://kit.fontawesome.com/212b1c55d5.js"
     crossorigin="anonymous"
   ></script>
 </html>
